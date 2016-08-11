@@ -1,0 +1,14 @@
+input.mpgm, textarea.mpgm {
+	font-size:24px;
+	padding-left:7px;
+}
+
+input.mpgm {
+	width:425px;
+	height:38px;
+}
+
+textarea.mpgm {
+	width:530px;
+	height:255px;
+}
