@@ -13,6 +13,16 @@ import { HappyMoment } from './happymoment';
 	  <div><label>location: </label>{{happymoment.location}}</div>
 	  <div><label>description: </label>{{happymoment.description}}</div>
 	  <div><label>image: </label>{{happymoment.image}}</div>
+	  <h1>editor</h1>
+	  <div>
+	    <div><label>name: </label><input value="{{happymoment.name}}" placeholder="name"></div>
+	    <div><label>email: </label><input value="{{happymoment.email}}" placeholder="name"></div>
+	    <div><label>title: </label><input value="{{happymoment.title}}" placeholder="name"></div>
+	    <div><label>location: </label><input value="{{happymoment.location}}" placeholder="name"></div>
+	    <div><label>description: </label><input value="{{happymoment.description}}" placeholder="name"></div>
+	    <div><label>image: </label><input value="{{happymoment.image}}" placeholder="name"></div>
+	  </div>
+	  
 	`
 })
 export class AppComponent { 
